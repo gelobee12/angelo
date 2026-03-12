@@ -32,3 +32,4 @@ function sqrt(){
     display.value +='√';
 }
 
+  // first commit kinda nervy

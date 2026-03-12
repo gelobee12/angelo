@@ -1,0 +1,77 @@
+body {
+    background-color: pink;
+}
+.calbody {
+    background-color: rgb(44, 28, 28);
+    max-width: 450px;
+    height: 580px;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 20px;
+
+}
+
+.center{
+    text-align: center;
+    margin-top: 40px;
+    position: relative;
+    bottom: 10px;
+}
+
+
+input {
+    margin: auto;
+    height: 80px;
+    width: 404px;
+    position: relative;
+    right: 5px;
+    border: 1px solid;
+    border-radius: 15px;
+    font-size: 50px;
+}
+
+.numbers button {
+   border: 1px solid    ; 
+   padding: 30px;
+   margin-top: 10px;
+   margin-right: 10px;
+   width: 90px;
+   border-radius: 15px;
+}
+
+.numbers button:nth-child(2) {
+  position: relative;
+  top: 3px;
+}
+
+.numbers button:nth-child(21) {
+    position: relative;
+    bottom: 29px;
+}
+
+.numbers button:nth-child(22) {
+    position: relative;
+    bottom: 29px;
+}
+
+.numbers button:nth-child(23) {
+    height: 76px;
+    position: relative;
+    top: 1px;
+}
+
+.numbers button:nth-child(24) {
+    position: relative;
+    bottom: 29px;
+}
+
+h1 {
+    position: relative;
+    bottom: 24px;
+}
+
+.numbers button:hover {
+    background-color: rgb(136, 120, 120);
+    cursor: pointer;
+}

@@ -1,5 +1,5 @@
 body {
-    background-color: pink;
+    background-color: rgb(60, 60, 60);
 }
 .calbody {
     background-color: rgb(44, 28, 28);
@@ -32,17 +32,22 @@ input {
 }
 
 .numbers button {
-   border: 1px solid    ; 
+    height: 79px;
+   border: 1px solid; 
    padding: 30px;
+   font-family: 'Segoe UI Symbol', 'Arial', sans-serif; 
    margin-top: 10px;
    margin-right: 10px;
    width: 90px;
    border-radius: 15px;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 .numbers button:nth-child(2) {
-  position: relative;
-  top: 3px;
+    height: 79px;
+    position: relative;
+    
 }
 
 .numbers button:nth-child(21) {
@@ -55,10 +60,13 @@ input {
     bottom: 29px;
 }
 
+
+
 .numbers button:nth-child(23) {
-    height: 76px;
+    height: 79px;
     position: relative;
-    top: 1px;
+    top: 7px;
+    
 }
 
 .numbers button:nth-child(24) {

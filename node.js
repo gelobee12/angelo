@@ -31,5 +31,5 @@ function squared() {
 function sqrt(){
     display.value +='√';
 }
-
+// oa
   // first commit kinda nervy
